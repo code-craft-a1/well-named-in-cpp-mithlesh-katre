@@ -1,0 +1,28 @@
+name: Build STM32 Firmware
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up ARM Toolchain
+        run: sudo apt-get install -y gcc-arm-none-eabi make
+
+      - name: Build Firmware
+        run: make clean && make all
+
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: firmware
+          path: build/firmware.bin  # Adjust according to your build path

@@ -1,0 +1,27 @@
+Color Code Reference Manual
+--------------------------------
+Pair Number:  1 -> White Blue
+Pair Number:  2 -> White Orange
+Pair Number:  3 -> White Green
+Pair Number:  4 -> White Brown
+Pair Number:  5 -> White Slate
+Pair Number:  6 -> Red Blue
+Pair Number:  7 -> Red Orange
+Pair Number:  8 -> Red Green
+Pair Number:  9 -> Red Brown
+Pair Number: 10 -> Red Slate
+Pair Number: 11 -> Black Blue
+Pair Number: 12 -> Black Orange
+Pair Number: 13 -> Black Green
+Pair Number: 14 -> Black Brown
+Pair Number: 15 -> Black Slate
+Pair Number: 16 -> Yellow Blue
+Pair Number: 17 -> Yellow Orange
+Pair Number: 18 -> Yellow Green
+Pair Number: 19 -> Yellow Brown
+Pair Number: 20 -> Yellow Slate
+Pair Number: 21 -> Violet Blue
+Pair Number: 22 -> Violet Orange
+Pair Number: 23 -> Violet Green
+Pair Number: 24 -> Violet Brown
+Pair Number: 25 -> Violet Slate
